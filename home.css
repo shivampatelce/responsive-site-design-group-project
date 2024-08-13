@@ -1,0 +1,135 @@
+.container {
+    padding: 20px 60px 80px 60px;
+    text-align: center;
+}
+
+.container h2 {
+    padding: 20px;
+    font-size: 60px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.best_ice_cream {
+    text-align: center;
+    padding: 80px;
+    background-color: antiquewhite;
+}
+
+.best_ice_cream h2 {
+    font-size: 40px;
+}
+
+.best_ice_cream_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.ice_cream_details {
+    width: 400px;
+    height: 650px;
+}
+
+.ice_cream_details div{
+    font-size: 32px;
+}
+
+.ice_cream_description {
+    padding: 60px 60px 0px 60px;
+}
+
+.store {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.store-details{
+    padding: 60px;
+    width: 700px;
+    height: fit-content;
+}
+
+.store-details div {
+    padding: 10px 0px;
+}
+
+table {
+    width: 100%;
+    text-align: start;
+    padding: 10px 0px;
+}
+
+caption {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+th {
+    text-align: start;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 992px) {
+    .best_ice_cream_list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ice_cream_details {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .store {
+        flex-direction: column-reverse;
+    }
+
+    .store-details {
+        width: fit-content !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .best_ice_cream_list {
+        flex-direction: column-reverse;
+    }
+
+    .our-stores-table {
+        padding: 20px 0px;
+    }
+
+    table, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        padding: 10px;
+    }
+
+    td::before {
+        content: attr(headers);
+        font-weight: bold;
+        text-align: left;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    .ice_cream_description {
+        padding: 60px 0px 0px 0px;
+    }
+
+    .best_ice_cream {
+        padding: 80px 20px 20px 20px;
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../shared-style.css">
+    <link rel="stylesheet" href="contact-us.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav role="navigation">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.jpg" alt="logo" height="40px" width="60px">
+            </a>
+        </div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Menu/menu.html">Menu</a></li>
+            <li><a href="../Product Page/product.html">Product</a></li>
+            <li><a href="../Contact Us/contact-us.html">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <main role="main">
+        <h1>Contact Us</h1>
+        <form>     
+            <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+            <div class="form-field">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-field">
+                <label for="yourEmail">Email</label>
+                <input type="email" id="yourName" name="email" placeholder="Email">
+            </div>
+            <div class="form-field">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+            </div>
+            <div class="form-field">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+            </div>
+            <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" row="6" cols="50"></textarea>
+            </div>
+            <div class="form-field">
+                <div class="label">Preferred Contact Method</div>
+                <div class="radio-label">
+                    <input type="radio" id="email_radio" name="preferredMethod" value="email">
+                    <label for="email_radio">Email</label>
+                </div>
+                <div class="radio-label">
+                    <input type="radio" id="phone_radio" name="preferredMethod" value="phone">
+                    <label for="phone_radio">Phone</label>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="bestTime">Best Time to Contact</label>
+                <select name="bestTime" id="bestTime">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="reason">Reason for Contact</label>
+                <select name="reason" id="reason">
+                    <option value="generalInquiry">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur illo, recusandae aut dolore vitae fuga facilis quisquam quo error iure laudantium dolores commodi repellendus possimus aperiam sequi eligendi sapiente?
+        </div>
+        <div class="description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, odit vero qui sequi minima similique eligendi tenetur veritatis perferendis. Aut dolore dolorum quod adipisci molestiae similique ex quaerat totam alias.
+        </div>
+        <div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.853458462019!2d-80.49735152390365!3d43.42188836736106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf508d408f165%3A0xeea5dcab1e397a0e!2sSheridan%20Nurseries%20Limited!5e0!3m2!1sen!2sca!4v1710975886703!5m2!1sen!2sca"
+				width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+    </main>
+    <footer role="contentinfo">
+        <img src="../images/logo.jpg" alt="logo" height="50px" width="80px">
+        <div class="footer-container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Menu/menu.html">Menu</a></li>
+                <li><a href="../Product Page/product.html">Product</a></li>
+                <li><a href="../Contact Us/contact-us.html">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

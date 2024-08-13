@@ -1,0 +1,131 @@
+#productImage {
+    padding: 20px;
+    width: 50%;
+}
+
+#productImage img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#product {
+    display: flex;
+}
+
+#productDetail {
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#productDetail div button{
+    height: 50px;
+    margin: 10px 0;
+}
+
+label{
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+button{
+    padding: 10px;
+    color: black;
+    background-color: #fc96c5;
+    border-color: aliceblue;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 100px;
+}
+
+.heading{
+    text-align: center;
+    background-color: #E31C79;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 0 1px 3px black;
+    padding: 10px;
+}
+
+.suggetions{
+    display: flex;
+    box-shadow: 0 1px 3px black;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: antiquewhite;
+    margin: 10px auto;
+}
+
+.suggetions img{
+    height: 100px;
+    width: auto;
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px 5px black;
+}
+
+.suggetions>*{
+    margin:15px;
+}
+
+#bottomText{
+    text-align: center;
+}
+
+#heading{
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #E31C79;
+    color: white;
+}
+
+#bottomText :last-child{
+    font-size: large;
+    padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .suggetions{
+        width: 100%;
+    }
+    #product{
+        display: inline;
+    }
+    #productImage {
+        width: fit-content;
+        margin: auto;
+    }
+    /* #productImage img{
+        
+    } */
+    #productDetail {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    label{
+        text-align: center;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .suggetions{
+        display: grid;
+        text-align: center;
+    }
+}
