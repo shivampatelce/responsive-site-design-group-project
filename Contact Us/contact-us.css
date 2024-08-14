@@ -1,105 +1,113 @@
 main {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    width: fit-content;
-    margin: 30px auto;
-    padding: 20px;
-    border: 1px solid #ebebeb;
-    border-radius: 20px;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
 }
 
 .form-field {
-    padding: 20px;
-    display: flex;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
-label, .label {
-    width: 300px;
-    font-size: 20px;
-    text-align: left;
+label,
+.label {
+  width: 300px;
+  font-size: 20px;
+  text-align: left;
 }
 
-input, textarea, select {
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    padding: 8px;
-    width: 300px;
+input,
+textarea,
+select {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 8px;
+  width: 300px;
 }
 
-input:focus, textarea:focus, select:focus {
-    outline: none;
-    border: 1px solid #0080FF;
-    box-shadow: 0 0 2px #0080FF;
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #0080ff;
+  box-shadow: 0 0 2px #0080ff;
 }
 
 button {
-    background: #0080FF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 6px 20px;
-    margin: 8px;
+  background: #0080ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin: 8px;
 }
 
 .map {
-    padding: 40px;
+  padding: 40px;
+  width: fit-content;
+  margin: 0px auto;
 }
 
 .description {
-    font-size: 20px;
-    padding: 20px;
+  font-size: 20px;
+  padding: 20px;
 }
 
 .radio-label {
-    display: flex;
-    margin-right: 40px;
+  display: flex;
+  margin-right: 40px;
 }
 
 .radio-label input {
-    width: fit-content;
+  width: fit-content;
 }
 
 .radio-label label {
-    width: fit-content;
+  width: fit-content;
 }
 
 @media screen and (max-width: 992px) {
-    .form-field{
-        flex-direction: column;
-    }
+  .form-field {
+    flex-direction: column;
+  }
 
-    .form-field label {
-        padding: 8px 0px;
-    }
+  .form-field label {
+    padding: 8px 0px;
+  }
 
-    input, textarea {
-        margin-left: 16px;
-    }
+  input,
+  textarea {
+    margin-left: 16px;
+  }
 
-    .radio-label {
-        width: 100%;
-        margin-left: 40px;
-        padding: 5px;
-    }
+  .radio-label {
+    width: 100%;
+    margin-left: 40px;
+    padding: 5px;
+  }
 
-    .radio-label label {
-        padding: 0px;
-    }
+  .radio-label label {
+    padding: 0px;
+  }
 
-    .radio-label input {
-        margin: 0px 16px;
-    }
+  .radio-label input {
+    margin: 0px 16px;
+  }
 
-    .map {
-        padding: 20px 0px;
-    }
+  .map {
+    padding: 20px 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .map {
-        padding: 20px 0px;
-    }
+  .map {
+    padding: 20px 0px;
+  }
 }
